@@ -1,0 +1,11 @@
+#需要安装的python依赖 通过命令 pip install -r requirements.txt 进行安装
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+python-dotenv
+pydantic
+passlib[bcrypt]       # 密码加密
+python-jose[cryptography]  # JWT令牌
+python-multipart
+loguru                # 日志
